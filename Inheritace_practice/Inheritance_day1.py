@@ -12,5 +12,10 @@ class e(Inheritance_day1):
     def fun3(self):
         print("Hellow")
 
-id= e()
-id.function1()
+class four(e):
+
+    def funt4(self):
+     print("Hellow function 4")
+
+id= four()
+id.funt4()
