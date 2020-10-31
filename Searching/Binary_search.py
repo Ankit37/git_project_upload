@@ -1,7 +1,9 @@
 
 p=-1
 def search(list,n):
-
+ print(list)
+ list.sort()
+ print(list)
  l=0;
  u=len(list)-1
  while l<=u:
@@ -18,7 +20,7 @@ def search(list,n):
  return False
 
 
-list=[11,22,33,44,55,66,77,88,99]
+list=[11,33,22,44,556,66,77,88,99]
 n=22
 
 if search(list, n):
